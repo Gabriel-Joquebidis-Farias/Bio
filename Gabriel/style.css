@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet');
 
 :root {
-   --cabecalho-menu: #FFF2E7;
+   --cabecalho-menu: #e2e2e2;
 }
 * {
   margin: 0;
@@ -13,7 +13,7 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(68.15deg, #0f3114 30.62%, #2a9249 70.61%);
+  background: linear-gradient(68.15deg, #0c5216 30.62%, #0f9236 70.61%);
 }
 .teste{
   box-sizing: border-box;
@@ -31,7 +31,6 @@ body {
   height: 100px;
   width: 100px;
   margin-left: 0% ;
-  background-image: url('index.html');
 }
 
 .cabecalho-menu {
