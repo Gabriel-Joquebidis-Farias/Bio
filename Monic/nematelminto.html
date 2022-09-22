@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="icon" href="iconpolvo.jpg">
+    <title>Nematelmintos</title>
+
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+        .subtitulo-especies{
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-right: 200px;
+        }
+
+        .reproducao{
+            list-style-type: none;
+
+        }
+
+        .reproducao dl{
+            margin-right: 30px;
+            font-weight: 600;
+            font-size: 1.17em;
+        }
+
+        .reproducao dd{
+            color: gray;
+        }
+
+        .bg-dark{
+            color: white;
+        }
+
+
+
+    </style>
+</head>
+
+<body style="background-color: #666666; color: #FF0000">
+
+<nav class="navbar-dark navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Molusco Aquático</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Porifera</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nematelminto</a>
+                </li>
+                
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Procure um animal" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<table style="margin:auto;">
+    <tr>
+        <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="ne1.jpg" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Adaptações para o ambiente:</h5>
+                            <p class="card-text">Informações sobre suas adaptações.</p>
+                            <p class="card-text"><small class="text-muted"><a href="#adaptacoes-aereo" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; margin-left: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="ne2.jpg" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Onde vivem: </h5>
+                            <p class="card-text">Informações sobre onde vivem os nematelmintos.</p>
+                            <p class="card-text"><small class="text-muted"><a href="#onde-vivem" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; margin-left: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="ne3.jpg" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Como se alimentam:</h5>
+                            <p class="card-text">Informações sobre a alimentação dos nematelmintos</p>
+                            <p class="card-text"><small class="text-muted"><a href="#alimentacao" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="ne4.jpg" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Regulação de água no corpo:</h5>
+                            <p class="card-text">Informações sobre a regulação de água no corpo e respirção dos nematelmintos</p>
+                            <p class="card-text"><small class="text-muted"><a href="#regula-agua" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+      
+
+        <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; margin-left: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="ne5.jpg" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Como se locomovem: </h5>
+                            <p class="card-text">Informações sobre a forma de locomoção dos nematelmintos.</p>
+                            <p class="card-text"><small class="text-muted"><a href="#locomovem" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; margin-left: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="ne6.jpg" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Medidas profiláticas: </h5>
+                            <p class="card-text">Informações sobre as estratégias de defesa dos nematelmintos.</p>
+                            <p class="card-text"><small class="text-muted"><a href="#estrategias-defesa" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="necorpo2.jpg" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Informações sobre seu organismo</h5>
+                            <p class="card-text">Informações sobre: Sistema respiratório, Sistema circulatório, Sistema nervoso</p>
+                            <p class="card-text"><small class="text-muted"><a href="#info-organismo" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; margin-left: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="neC.png" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Como se reproduzem: </h5>
+                            <p class="card-text">Informações sobre a reprodução dos nematelmintos.</p>
+                            <p class="card-text"><small class="text-muted"><a href="#reproducao" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+
+                          <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="ne7.jpg" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Pricipais Doenças</h5>
+                            <p class="card-text">Conheça as principais doenças causdas por nematelmintos</p>
+                            <p class="card-text"><small class="text-muted"><a href="#regula-agua" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="ne4.jpg" class="img-fluid rounded-start" alt="Corvo" >
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Sobre os Nematelmintos: </h2><br><br>
+                <div class="card-text">
+
+                    <table>
+                        <tr>
+                            <td><p class="subtitulo-especies">Reino: </p> Animalia</td>
+                            <td><p class="subtitulo-especies">Filo: </p> Nemátodos</td>
+                            <td><p class="subtitulo-especies">Simetria: </p> Bilateral</td>
+                        </tr>
+                        <tr>
+                            <td><p class="subtitulo-especies">Classe: </p> Nematodo</td>
+                            <td><p class="subtitulo-especies">Ordem: </p> Triblástico, Protostõmios,<br>pseudocelomados</td>
+                            <td><p class="subtitulo-especies">Sexo: </p> Dióicos ou Monóicos</td>
+                        </tr>
+                        <tr>
+                            <td><p class="subtitulo-especies">Família: </p> Ancylostomatidae, Angiostrongyli, Ascarididae</td>
+                            <td><p class="subtitulo-especies">Embriologia: </p> pseudocelomados.</td>
+                            <td><p class="subtitulo-especies">Tipo de Celula: </p> Eucarionte</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto" id="adaptacoes-aereo">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="ne1.jpg" class="img-fluid rounded-end" alt="Corvo">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Adaptações para o ambiente:</h2><br><br>
+                <p class="card-text">
+                <h5>podem viver tanto na água quanto na terra ou, ainda, no organismo de outros seres.
+                
+
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto" id="onde-vivem">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="ne3.jpg" class="img-fluid rounded-end" alt="caravela-portuguesa">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Onde vivem: </h2><br><br>
+                <p class="card-text"> Muitas espécies são de vida livre e vivem em ambiente aquático ou terrestre; outras são parasitas de plantas e de animais, inclusive o ser humano.
+                    <h5>  </h5>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto" id="alimentacao">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="ne2.jpg" class="img-fluid rounded-end" alt="Corvo">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Como se alimentam:</h2><br><br>
+                <p class="card-text">
+                    <h5>
+                O sistema digestório dos nematelmintos é completo, formado por ânus e boca. Uma curiosidade é que esses vermes possuem estruturas bastante parecidas com dentes humanos e que são utilizadas para perfurar e até se fixar de maneira parasitária em outros organismos. Os nematelmintos realizam uma digestão bem particular, contam com enzimas que permitem potencializar a absorção dos nutrientes
+            </h5>
+
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto" id="regula-agua">
+    <div class="row g-0">
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Regulação de água no corpo e respiração:</h2><br><br>
+                <p class="card-text" style="font-size: 1.5em;">
+                     A oxigenação do organismo e as trocas gasosas são realizadas através de difusão, uma vez que esses vermes não apresentam nenhum órgão com função de respiração. No caso dos parasitas, a respiração é realizada muitas vezes através de fermentação láctica.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto" id="locomovem">
+    <div class="row g-0">
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Como se locomovem:</h2><br><br>
+                <p class="card-text" style="font-size: 1.5em;">
+                    O sistema locomotor dos nematelmintos é formado por camadas musculares longitudinais, que são encontradas logo abaixo da epiderme. Esses músculos são ativados pelas cadeias nervosas, sendo que a contração permite apenas movimentos de flexão dorsoventral, não sendo possível a realização de movimentos laterais. Eles sao ciliados e se locomovem pelos cilios.
+                </h5>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto" id="estrategias-defesa">
+    <div class="row g-0">
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Medidas profiláticas:</h2><br><br>
+                <p class="card-text" style="font-size: 1.5em;">
+                    Tratamento das pessoas infectadas.<br>
+Higiene pessoal — lavar as mãos antes de manipular alimentos, após defecar e ao acordar.<br>
+Trocar as roupas de cama com frequência; no caso de haver uma pessoa contaminada, ferver e lavar separadamente suas roupas pessoais e de cama.<br>
+Limpeza do quarto com pano úmido ou aspirador de pó.
+
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto" id="info-organismo">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="ne4.jpg" class="img-fluid rounded-end" alt="Corvo">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Informações sobre seu organismo:</h2><br>
+                <p class="card-text" style="font-size: 1.5em;">
+                <h3>Sistema nervoso:</h3>centralizado.
+                <h3><br>Sistema circulatório:</h3>inexistente.
+                <h3><br>Sistema Respiratório:</h3>inexistente.
+                <h3><br>Sistema Digestivo:</h3>completo.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto" id="reproducao">
+    <div class="row g-0">
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Como se reproduzem:</h2><br><br>
+                <ul class="reproducao" style="display: flex; justify-content: space-evenly;">
+                    
+                    <li>
+                        <dl>Tipo:</dl>
+                        <dd>Sexuada</dd>
+                    </li>
+                    
+                    <li>
+                        <dl>Sistema de acasalamento:</dl>
+                        <dd>Os nematelmintos têm dimorfismo sexual, isso significa que apresentam características diferentes conforme o sexo. Grande parte das espécies realiza fecundação interna, ou seja, no interior do organismo da fêmea. O processo termina com a eliminação dos ovos no ambiente.</dd>
+                    </li>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="card text-bg-dark mb-3 texto" style="height: auto" id="doenças">
+    <div class="row g-0">
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Principais doenças</h2><br><br>
+                <p class="card-text" style="font-size: 1.5em;">
+                    
+                    <h1><b>Ascaridíase</b></h1>
+                    Uma das doenças mais famosas causadas por nematelmintos. O responsável por causá-la é o verme conhecido popularmente como lombriga. A contaminação se dá por via oral, o indivíduo ingere os ovos do parasita que eclodem em seu organismo, tornando-o o hospedeiro.
+            <br>
+
+                   <h1><b>Enterobiose</b></h1>
+                    Doença que também é chamada de oxiuríase, se caracteriza por sintomas como vômitos, sangue nas fezes, dor de barriga e coceira intensa na região anal. Nesse caso, a contaminação também ocorre pela ingestão de ovos dos vermes.
+           <br>
+
+                    <h1><b>Elefantíase</b></h1>
+                    Essa doença, também chamada de filariose, possui consequências mais sérias para o indivíduo contaminado. O problema se concentra no sistema linfático do paciente e faz com que ele apresente inchaço demasiado em várias partes do corpo.
+            <br>
+
+                    <h1><b>Ancilostomose</b></h1>
+                    Conhecida popularmente como amarelão, a ancilostomose é uma doença causada por nematelmintos. Sua transmissão ocorre através do contato da pele com larvas do verme. Dentre os sintomas se destacam a diarreia, anemia e perda acentuada de peso. O nome amarelão se deve ao fato de que a pessoa com essa doença fica com aspecto “amarelado”.
+                </h5>
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                   
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>

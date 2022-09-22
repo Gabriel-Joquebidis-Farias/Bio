@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ficha de Artropode</title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+		body{
+			background-color:#1d0f26;
+			margin: 0px;
+		}
+		#menu{
+			background-color:#1d0f26;
+			margin-top: 1% ;
+			display: flex;
+			font-family: 'Comfortaa', cursive;
+		}
+		#menuzin{
+			padding:1%;
+			margin-left: 1%;
+			background-color:#2d2233;
+			color: darkgray;
+			border-radius:10px;
+			border-top: solid 1vh;
+			border-top-color: #a18702;
+			animation-name: menuzito;
+			animation-fill-mode: forwards;
+			animation-duration: 1.5s;
+		}
+		@keyframes menuzito{
+			from{
+				border-bottom-right-radius:0px;
+				border-bottom-left-radius:0px;
+				background-color:#373438;
+			}
+			to{
+				
+				background-color:#2d2233;
+				border-bottom-right-radius:10px;
+				border-bottom-left-radius:10px;
+			}
+		}
+		#menuzin1{
+			padding:1%;
+			margin-left: 1%;
+			background-color:#2d2233;
+			color: darkgray;
+			border-radius:10px;
+			border-top: solid 1vh;
+			border-top-color: #a18702;
+			animation-name: menuzito;
+			animation-fill-mode: forwards;
+			animation-duration: 1.5s;
+		}
+		@keyframes menuzito{
+			from{
+				border-bottom-right-radius:0px;
+				border-bottom-left-radius:0px;
+				background-color:#373438;
+			}
+			to{
+				
+				background-color:#2d2233;
+				border-bottom-right-radius:10px;
+				border-bottom-left-radius:10px;
+			}
+		}
+		#menuzinAgr{
+			padding:1%;
+			margin-left: 1%;
+			
+			color: darkgray;
+			border-top-right-radius:10px;
+			border-top-left-radius:10px;
+			border-top: solid 1vh;
+			border-top-color: #a18702;
+			animation-name: menuagr;
+			animation-fill-mode: forwards;
+			animation-duration: 1.5s;
+		}
+		@keyframes menuagr{
+			from{
+				border-bottom-right-radius:10px;
+				border-bottom-left-radius:10px;
+				background-color:#2d2233;
+			}
+			to{
+				background-color:#373438;
+				border-bottom-right-radius:0px;
+				border-bottom-left-radius:0px;
+			}
+		}
+		#textos{
+			display: flex;
+			padding: 1%;
+			margin-left: 1%;
+			margin-right: 1%;
+			border-radius: 10px;
+			background-color:#373438;
+			width: 96%;
+			height: 80vh;
+			flex-direction: column;
+		}
+		#transparente{
+			font-family: 'Comfortaa', cursive;
+			background-size: 100% 100%;
+			background-image: url(fundo2.jpg);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		#imgETxt1{
+			font-family: 'Roboto Condensed', sans-serif;
+			height: 55%;
+			width: 100%;
+			display: flex;
+		}
+		#bgDaImg1{
+			display: flex;
+			margin-top: 1%;
+			width:30%; 
+			height: 90%;
+			background-image: linear-gradient(45deg, #85715a, #383129, #85715a);
+			background-size: 300%;
+			justify-content: center;
+			align-items: center;
+
+			animation-name: bg;
+			animation-duration: 2s;
+			animation-timing-function: linear;
+			animation-direction: alternate;
+			animation-iteration-count: infinite;
+		}
+		@keyframes bg{
+			from{
+				background-position: left;
+			}
+			to{
+				background-position: right;
+			}
+		}
+		
+
+		#img1{
+			padding: 1%;
+			width: 93%;
+			height: 92%;
+			
+			font-size: 60%;
+			-webkit-text-fill-color: white;
+			background-color: #373438;
+		}
+		#Cladograma{
+			height:75%;
+			width:100%;
+		}
+		#txt1{
+			margin-left:1%;
+			width: 75%;
+			height: 100%;
+			color: white;
+			font-size: 85%;
+
+		}
+		u{
+			text-decoration-color:#ffa500;
+		}
+		#imgETxt2{
+			width: 100%;
+			font-family: 'Roboto Condensed', sans-serif;
+			height: 44%;
+			width: 100%;
+			display: flex;
+			color: white;
+			font-size: 85%;
+		}
+		#Txt2{
+			width: 85%;
+			height: 100%;
+
+		}
+		#bgDaImg2{
+			margin-top: 1%;
+			display: flex;
+			width: 18%;
+			height: 80%;
+			background-image: linear-gradient(45deg, #85715a, #383129, #85715a);
+			background-size: 300%;
+			justify-content: center;
+			align-items: center;animation-name: bg2;
+			animation-duration: 2s;
+			animation-timing-function: linear;
+			animation-direction: alternate;
+			animation-iteration-count: infinite;
+		}
+		@keyframes bg2{
+			from{
+				background-position: left;
+			}
+			to{
+				background-position: right;
+			}
+		}
+		#img2{
+			width: 93%;
+			height: 93%;
+			-webkit-text-fill-color: white;
+			background-color: #373438;
+		
+			  }
+		#CoitadoDeQuemVer{
+			width: 96%;
+			height: 80%;
+			margin-left: 2%;
+			margin-right: 2%;
+			margin-top: 2%;
+			}
+			a{
+				color: darkgray;
+				text-decoration: none;
+			}
+	</style>
+</head>
+<body>
+<div id="menu">
+	<div id="menuzin">Home</div>
+	<div id="menuzinAgr">Ficha de Artropode</div>
+	<div id="menuzin1"><a href="../Ficha de Mamifero/Ficha de Mamifero.html">Ficha de Mamifero</a></div>
+</div>
+<div id="textos">
+	<div id="transparente">
+	<div id="imgETxt1">
+		<div id="bgDaImg1" >
+		<div id="img1">
+			<img id="Cladograma" src="Cladograma.png"><span style="color:white;">
+			<i>Filogenia adaptada de Stockwell, S.A. 1989. Os pontos em amarelo são as famílias que ocorrem no Brasil: Buthidae, Chactidae, Ischnuridae (= Liochelidae) e Bothriuridae, mostrando os representantes de espécies brasileiras (Rhopalurus rochai, Brotheas granulatus, Bothriurus rochai, Opistacanthus cayaporum). As dimensões dos espécimes foram alteradas e não são correspondentes.</i></span>
+		</div>
+		</div>
+		<div id="txt1">
+			<h1 align="center">Escorpião</h1>
+			<b>Os artrópodes formam um filo (Arthropoda) de animais com as patas e todos os outros apêndices articulados (antenas, peças bucais etc) e com exoesqueleto, uma proteção externa contra perda de água e danos físicos, que limita o crescimento dos animais sendo necessário uma troca de exoesqueleto para que se desenvolvam.<br>
+			Uma característica exclusiva dos escorpiões (nenhum outro aracnídeo tem) é a presença dos “pentes”, pequenas estruturas que parecem pentes e que servem para eles perceberem como é o substrato (chão) onde estão se deslocando, já que são animais terrestres. Isso é muito importante, porque os escorpiões não enxergam, seus pequenos olhos são primitivos e só funcionam para perceber a luminosidade. O que os permite viver tanto em lugares desertos quanto nas matas, neles, eles se escondem durante o dia, para caçar à noite, usando seu veneno para defesa e caça. Alimentando-se principalmente de insetos e outros invertebrados (predadores).<br>
+			<u>Sistema digestivo</u><br>
+			O sistema digestivo dos escorpiões é completo e o alimento é levado até ele por apêndices bucais articulados. O sistema é dividido em três partes, o anterior serve para digestão mecânica, o mediano (ou ceco) para digestão enzimática e absorção de nutrientes e o posterior para absorção de água. A excreção é feita pelo nefrídeos que são associados a outras estruturas como túbulos de Malpighi ou glândulas coxais, as quais têm aberturas na base das antenas ou na base do primeiro par de patas para eliminação dos excretas.<br>
+			<u>Sistema circulatório</u><br>
+			Pelo fato do sistema circulatório ser aberto, o sangue sai do coração, passa pelos vasos, sai para a hemocele, alimentando os órgãos dos animais e enfim volta para o coração, e todo o processo começa de novo. Os pequenos escorpiões não têm moléculas ou células dariam cor ao sangue, já os escorpiões maiores têm hemocianina no sangue, molécula que deixa o sangue com coloração azulada. Antes do sangue voltar para o coração, este passa pela estrutura responsável pela realização da troca gasosa, brânquias no caso de animais aquáticos como os crustáceos, sistema traqueal em insetos e pulmão foliáceo em aranhas.</b><br>
+			
+		</div>
+	</div>
+	<div id="imgETxt2">
+		<div id="Txt2">
+			<u><b>Sistema circulatório</u><br>
+		Pelo fato do sistema circulatório ser aberto, o sangue sai do coração, passa pelos vasos, sai para a hemocele, alimentando os órgãos dos animais e enfim volta para o coração, e todo o processo começa de novo. Os pequenos escorpiões não têm moléculas ou células dariam cor ao sangue, já os escorpiões maiores têm hemocianina no sangue, molécula que deixa o sangue com coloração azulada. Antes do sangue voltar para o coração, este passa pela estrutura responsável pela realização da troca gasosa, brânquias no caso de animais aquáticos como os crustáceos, sistema traqueal em insetos e pulmão foliáceo em aranhas.<br>
+			<u>Sistema nervoso</u><br>
+		O sistema nervoso dos escorpiões é composto por gânglios sendo um central que se liga a um cordão nervoso que percorre todo o corpo. Os órgãos sensoriais são chamados de sensilas que podem ser mecano e quimiorreceptores como poros, pelos e cerdas são projeções da cutícula, já que a mesma é uma barreira entre o corpo doa animais e o meio. Eles podem ter, além dos olhos simples, os olhos compostos tendo, cada uma das unidades, um nervo exclusivo ligado. Devido a isso, os olhos compostos são especializados na detecção de movimentos. Os olhos de alguns escorpiões são especializados em visão diurna ou noturna, ou seja, eles têm alto grau de dificuldade para se adaptar a mudança de luminosidade.<br><br>
+		A fêmea é vivípara, ou seja, os filhotes desenvolvem-se dentro da mãe. Alguns escorpiões reproduzem-se assexuadamente por partenogênese, em que os óvulos se desenvolvem diretamente em embriões, sem serem fecundados por um macho, como ocorre, por exemplo, com T. serrulatus e T. stigmurus, as quais geram novas fêmeas. Outros escorpiões reproduzem-se de forma sexuada, a qual há transferência de espermatozoides do macho para a fêmea, como ocorre com T. bahiensis.
+		Para essas espécies de importância em saúde pública a gestação dura em torno de 3 meses, as ninhadas são de aproximadamente 20 filhotes com 2 partos por ano e o desenvolvimento até a fase adulta é de aproximadamente 1 ano.</b>
+		</div>
+		<div id="bgDaImg2">
+		<div id="img2">
+			<img id="CoitadoDeQuemVer" src="CoitadoDeQuemVer.png">
+			Foto: Marcelo Borges. Fêmea de escorpião, com filhotes.
+		</div>
+		</div>
+	</div>
+</div>
+</div>
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+	#bgDoPsng{
+		margin-top: 10%;
+		display: flex;
+		height: 67vh;
+		overflow: hidden;
+		background-size: 400%;
+		background-image: linear-gradient(45deg, darkred, #B25F15, #974200,  darkred, #B25F15,#974200,  darkred, #B25F15,#974200,  darkred, #B25F15,#974200, red) ;
+		animation-name: animabgScrp;
+		animation-duration: 2.3s;
+		animation-timing-function: linear;
+		animation-iteration-count: infinite;
+		animation-direction: normal;
+	}
+
+	@keyframes animabgScrp{
+		from{
+			background-position:right;
+		}
+		to{
+			background-position: left;
+		}
+	}
+
+	#Personagem{
+		align-self: flex-end;
+		position: relative;
+		display: flex;
+		width: 100%;
+		height: 65vh;
+		background-color:#373438;
+		overflow: hidden;
+	}
+	#texto5{
+		position: absolute;
+		top: 40%;
+		left: 40%;
+		display: flex;
+		flex-direction: row;
+		font-family: 'Bebas Neue', cursive;
+		font-size: 500%;
+		color: white;
+		animation-name: sobeTexto;
+		animation-duration: 1.5s;
+		animation-timing-function: ease-in-out;
+		animation-fill-mode: forwards;
+		animation-play-state: paused;
+		background-image: linear-gradient(to bottom, red, orange, yellow);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		}
+		@keyframes sobeTexto{
+			from{
+
+			}
+			to{
+				top: 5%;
+				left: 62.5%;
+			}
+		}
+		#imgScorpion{
+			
+			position: absolute;
+			animation-name: imgAparece;
+			animation-duration: 1s;
+			animation-timing-function: ease-in-out;
+			animation-fill-mode: forwards;
+			animation-play-state: paused;
+		}
+		@keyframes imgAparece{
+
+			from{
+				width: 21%;
+				top: 20%;
+				height: 60%;
+				opacity: 0;
+				left: -21%;
+			}
+			to{
+				top: 0%;
+				left: 0%;
+				opacity: 0.8;
+				height: 100%;
+				width: 40%;
+			}
+		}
+		#img3{
+			width: 100%;
+			height: 100%;
+		}
+		#txtScorpion{
+			position: absolute;
+			left: 37%;
+			color: white;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 100%;
+			animation-name: txtAparece;
+			animation-duration: 1.5s;
+			animation-timing-function: ease-in-out;
+			animation-fill-mode: forwards;
+			animation-play-state: paused;
+		}
+		@keyframes txtAparece{
+			from{
+				top: 40%;
+				opacity: 0;
+			}
+			to{
+				top: 30%;
+				opacity: 1;
+			}
+		}
+		#audio{
+			position: absolute;
+			left: -50000000000000000%;
+			top: 30%;
+		}
+</style>
+
+<div id="bgDoPsng">
+<div id="Personagem" onclick="x()">
+	<div id="texto5">Scorpion</div>
+	<div id="imgScorpion"><img id="img3" src="ScorpionIMG.png"></div>
+	<div id="txtScorpion" align="left">⠀⠀Scorpion é um personagem jogável da franquia Mortal Kombat, criada pela Midway Games, inspirando-se em um escorpião (como conceito).<br>⠀⠀"Scorpion" é o pseudônimo de Hanzo Hasashi, um dos melhores guerreiros do clã japonês Shirai Ryu. Após ser assassinado por Sub-Zero, um membro de um clã rival de assassinos chineses conhecido como Lin Kuei, Scorpion torna-se um fantasma resplandecente residente no inferno (mais tarde denominado de "Netherrealm") que busca vingança contra os responsáveis pela destruição de seu clã e a morte de sua família, incluindo sua esposa e seu filho. Embora essencialmente neutro em fidelidade, Scorpion une forças com qualquer um que possa lhe ajudar em sua vingança. O personagem já foi manipulado por Quan Chi, a quem prometeu sua vida em troca de suas impressionantes habilidades de combate, visando derrotar Sub-Zero.<br>
+	⠀⠀Em sua história inicial, exibida no modo de atração do primeiro jogo, o personagem é descrito tendo apenas uma inimizade contra Sub-Zero, atribuída às rivalidades entre os clãs. Essa história foi melhor explorada numa história em quadrinhos gravada e ilustrada pelo co-criador de Mortal Kombat, John Tobias, e publicada pela própria Midway; numa cena, a bordo de um precário junco e a caminho da ilha de Shang Tsung, Scorpion choca Sub-Zero com seu inesperado retorno exatamente dois anos após sua morte, declarando que seus "demônios" lhe permitiram retornar e vingar sua morte, mas que ele não mataria Sub-Zero no local e, em vez disso, esperaria até o torneio porque ele "não era um assassino".
+	</div>
+	<div id="audio"><audio id="audio1"src="Geroverrir.mp3" controls></audio></div>
+</div>
+</div>
+
+<script type="text/javascript">
+	
+	function x() {
+  document.getElementById("texto5").style.animationPlayState = "running";
+  document.getElementById("imgScorpion").style.animationPlayState = "running";
+  document.getElementById("txtScorpion").style.animationPlayState = "running";
+  document.getElementById("audio1").play();
+}
+
+</script>
+</body>
+</html>
