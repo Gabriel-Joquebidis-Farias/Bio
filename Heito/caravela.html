@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="icon" href="imagens-caravela/oooo.ico">
+    <title>Caravela-Portuguesa</title>
+
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+        .subtitulo-especies{
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-right: 200px;
+        }
+
+        .reproducao{
+            list-style-type: none;
+
+        }
+
+        .reproducao dl{
+            margin-right: 30px;
+            font-weight: 600;
+            font-size: 1.17em;
+        }
+
+        .reproducao dd{
+            color: gray;
+        }
+
+
+    </style>
+</head>
+
+<body style="background-color: #535056; color: ghostwhite">
+
+<nav class="navbar-dark navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Início</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Vida aquática</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Vida terrestre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Vida aérea</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Vida parasitária</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Procure um animal" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<table style="margin:auto;">
+    <tr>
+        <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="imagens-caravela/bbbb.jpg" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Adaptações para o ambiente aquático:</h5>
+                            <p class="card-text">Informações sobre suas adaptações para o meio aéreo</p>
+                            <p class="card-text"><small class="text-muted"><a href="#adaptacoes-aereo" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; margin-left: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="imagens-caravela/rosa.jpg" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Onde vivem: </h5>
+                            <p class="card-text">Informações sobre onde vivem os corvos</p>
+                            <p class="card-text"><small class="text-muted"><a href="#onde-vivem" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; margin-left: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="imagens-caravela/caravela-boiando.jpg" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Como se alimentam:</h5>
+                            <p class="card-text">Informações sobre a alimentação dos corvos</p>
+                            <p class="card-text"><small class="text-muted"><a href="#alimentacao" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="imagens-caravela/cp.jpg" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Regulação de água no corpo:</h5>
+                            <p class="card-text">Informações sobre a regulação de água no corpo dos corvos</p>
+                            <p class="card-text"><small class="text-muted"><a href="#regula-agua" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; margin-left: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="imagens-caravela/nao.jpg" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Como se locomovem: </h5>
+                            <p class="card-text">Informações sobre a forma de locomoção dos corvos </p>
+                            <p class="card-text"><small class="text-muted"><a href="#locomovem" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; margin-left: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="imagens-caravela/na-praia.jpg" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Estratégias de defesa: </h5>
+                            <p class="card-text">Informações sobre as estratégias de defesa dos corvos</p>
+                            <p class="card-text"><small class="text-muted"><a href="#estrategias-defesa" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="imagens-caravela/sol.jpg" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Informações sobre seu organismo</h5>
+                            <p class="card-text">Informações sobre: Sistema respiratório, Sistema circulatório, Sistema nervoso</p>
+                            <p class="card-text"><small class="text-muted"><a href="#info-organismo" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; margin-left: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="imagens-caravela/sim.jpg" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Como se reproduzem: </h5>
+                            <p class="card-text">Informações sobre a reprodução dos corvos</p>
+                            <p class="card-text"><small class="text-muted"><a href="#reproducao" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+        <td>
+            <div class="card mb-3" style="max-width: 540px; margin-top: 20px; margin-left: 20px; background-color: #28242c; color: ghostwhite;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="imagens-caravela/cara.jpg" class="img-fluid rounded-start" alt="caravela-portuguesa">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">O corvo na cultura pop: </h5>
+                            <p class="card-text">Informações de aparição do corvo em Séries, filmes, jogos ou livros</p>
+                            <p class="card-text"><small class="text-muted"><a href="#cultura-corvo" style="color: darkgray">Saiba mais.</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="imagens-caravela/caravela-brilhando.jpg" class="img-fluid rounded-start" alt="Corvo" >
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Sobre a caravela-portuguesa: </h2><br><br>
+                <div class="card-text">
+
+                    <table>
+                        <tr>
+                            <td><p class="subtitulo-especies">Reino: </p> Animalia</td>
+                            <td><p class="subtitulo-especies">Filo: </p> Cnidaria</td>
+                            <td><p class="subtitulo-especies">Simetria: </p> Radial</td>
+                        </tr>
+                        <tr>
+                            <td><p class="subtitulo-especies">Classe: </p> Hydrozoa</td>
+                            <td><p class="subtitulo-especies">Ordem: </p> Siphonophora</td>
+                        </tr>
+                        <tr>
+                            <td><p class="subtitulo-especies">Família: </p> Physaliidae</td>
+                            <td><p class="subtitulo-especies">Gênero: </p> Physalia</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto" id="adaptacoes-aereo">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="imagens-caravela/bbbb.jpg" class="img-fluid rounded-end" alt="Corvo">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Adaptações para o ambiente aquático:</h2><br><br>
+                <p class="card-text">
+                    <h5>
+                A caravela portuguesa é um Cnidário e uma colônia de organismos ao mesmo tempo (não são um único ser, estando conectados anatomicamente).
+                <br>
+                <br>A caravela portuguesa não se move, mas flutua na água com ajuda do vento.
+                </h5>
+
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto" id="onde-vivem">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="imagens-caravela/rosa.jpg" class="img-fluid rounded-end" alt="caravela-portuguesa">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Onde vivem: </h2><br><br>
+                <p class="card-text">
+                    <h5>Em sua maioria, vivem nas regiões tropicais dos oceânos </h5>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto" id="alimentacao">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="imagens-caravela/tentaculos.jpg" class="img-fluid rounded-end" alt="Corvo">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Como se alimentam:</h2><br><br>
+                <p class="card-text">
+                    <h5>
+                        A Caravela portuguesa obtém alimento por meio de seus tentáculos, os quais possuem células
+                        urticantes, capturando peixes para sua alimentação. Os Cnidários possuem cavidade gastrovascular,
+                        ligada à boca, porém não possuem sistema excretor. A excreção ocorre por difusão
+                    </h5>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto" id="regula-agua">
+    <div class="row g-0">
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Regulação de água no corpo:</h2><br><br>
+                <p class="card-text" style="font-size: 1.5em;">
+                    Ocorre por meio de difusão
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto" id="locomovem">
+    <div class="row g-0">
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Como se locomovem:</h2><br><br>
+                <p class="card-text" style="font-size: 1.5em;">
+                    Não se movem sozinhas. A Caravela-portuguesa flutua com sua parte superior pela água, sendo arrastada pelo vento.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto" id="estrategias-defesa">
+    <div class="row g-0">
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Estratégias de defesa:</h2><br><br>
+                <p class="card-text" style="font-size: 1.5em;">
+                    Seu meio de defesa é sua queimadura e seu veneno. A caravela-portuguesa tem poucos animais que são imunes ao
+                    seu veneno, entre eles estão as tartarugas marinhas.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto" id="info-organismo">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="imagens-caravela/tentaculos.jpg" class="img-fluid rounded-end" alt="Corvo">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Informações sobre seu organismo:</h2><br>
+                <p class="card-text" style="font-size: 1.5em;">
+                <h3>Sistema nervoso:</h3>Não possuem sistema nervoso central, porém possuem uma rede de celulas nervosas espalhadas pelo corpo.
+                <h3><br>Sistema circulatório:</h3>Ausente.
+                <h3><br>Sistema Respiratório:</h3>Ausente.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card text-bg-dark mb-3 texto" style="height: auto" id="reproducao">
+    <div class="row g-0">
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">Como se reproduzem:</h2><br><br>
+                <h5>Reprodução sexuada, possui um pólipo específico destinado à reprodução, que produz gametas e libera-os
+                    na água. A reprodução ocorre geralmente no Outono e origina larvas</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h1 class="bg-dark" style="text-align: center; margin: auto;padding: 10px;" id="cultura-corvo">Curiosidades: <br></h1>
+
+<div class="container-md" style="display: flex; justify-content: space-evenly; margin-top: 10px">
+
+    <div class="card text-bg-dark mb-3" style="width: 18rem;">
+        <img src="imagens-caravela/caravela.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Seu nome</h5>
+            <p class="card-text">A caravela-portuguesa tem esse nome por causa de sua parte superior lembrar um barco e a crista lembrar velas de uma caravela</p>
+        </div>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
